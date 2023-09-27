@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "EOL ECU POWER CARD")
-    (date "2023-04-03")
-    (rev "0B")
+    (title "EOL ECU MIX CARD")
+    (date "2023-09-26")
+    (rev "0C")
     (company "ARXTRON TECHNOLOGIES")
     (comment 1 "A0180-V0")
     (comment 2 "PRJ22180")
@@ -2511,8 +2511,8 @@
     (property "fit_field" "" (at 233.68 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09e757f1-b53c-4679-be82-f8accd111fb7))
-    (pin "2" (uuid 00a1dd31-e126-483c-900a-cb3da4111ada))
+    (pin "1" (uuid c76e522a-a135-4105-abdf-0f223ff92d0b))
+    (pin "2" (uuid 18ecd8db-df40-4b6e-b644-a48c62e536b6))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"

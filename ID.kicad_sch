@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "EOL ECU POWER CARD")
-    (date "2023-04-03")
-    (rev "0B")
+    (title "EOL ECU MIX CARD")
+    (date "2023-09-26")
+    (rev "0C")
     (company "ARXTRON TECHNOLOGIES")
     (comment 1 "A0180-V0")
     (comment 2 "PRJ22180")
@@ -2089,8 +2089,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 53.34 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5e69415-8ae2-4fd9-80d9-87e771aa2d33))
-    (pin "2" (uuid a34223e1-130d-4af9-ba81-6abe3ac66a09))
+    (pin "1" (uuid c46d9b22-869d-4a78-9418-b844e12cd2e0))
+    (pin "2" (uuid ac121c06-193d-4afc-8738-281b55dc2465))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -2330,8 +2330,8 @@
     (property "Tolerance" "5%" (at 95.25 116.205 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 1388d427-1799-4344-8b98-16d8824ac5f7))
-    (pin "2" (uuid fe2ff5a8-0a87-4d63-8c8d-e6672e7edfbb))
+    (pin "1" (uuid f0b951ac-98e5-4ac3-9c8f-c66eb006f64b))
+    (pin "2" (uuid a0b9b7b4-1492-4356-80ed-fa9b1368e582))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -2504,8 +2504,8 @@
     (property "Tolerance" "5%" (at 95.25 106.045 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid e729542a-0322-48f1-a2c0-2eb1c297f04a))
-    (pin "2" (uuid 101ea3da-e5ae-4e7c-809a-0df1b3dbbbd3))
+    (pin "1" (uuid 3b056e88-4c23-4c47-979e-d8e16e4d914f))
+    (pin "2" (uuid f2082764-a7a6-436a-b437-24bc194b67d1))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -2942,8 +2942,8 @@
     (property "Tolerance" "5%" (at 95.25 78.105 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 5fd07ffe-40a9-4e12-9526-4277fc8dff6c))
-    (pin "2" (uuid 045f3d7d-dd68-44f2-a9ef-b0409fb0fbc8))
+    (pin "1" (uuid 97dc56ec-3185-4ca8-b6f9-4c21ee58e1e8))
+    (pin "2" (uuid bf67e370-0562-4197-8dbc-3ae2da60a3df))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -3159,8 +3159,8 @@
     (property "Tolerance" "5%" (at 95.25 133.985 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid d0b12c7e-9d39-43c9-9d27-993f89b58c85))
-    (pin "2" (uuid ab8db8fa-4d88-42d4-993d-35e7f5f75f6f))
+    (pin "1" (uuid 173f2281-ba05-4d9d-a25e-b7c466092933))
+    (pin "2" (uuid d002bdba-fbe1-4331-9919-340378b40c0b))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -3332,8 +3332,8 @@
     (property "Tolerance" "5%" (at 95.25 60.325 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7e8b87dd-df94-410d-a973-14729e60fdd1))
-    (pin "2" (uuid d20cbb51-7568-44af-9ca0-1abd0c14a88e))
+    (pin "1" (uuid 895e3de3-a0d6-422a-8859-d898fb1c3316))
+    (pin "2" (uuid e7c0994a-07a9-4b75-b547-6770de70a9ac))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -3391,8 +3391,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 53.34 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4048161-ee5a-4f1a-8b56-38c4210d0532))
-    (pin "2" (uuid 76be1455-33d8-4caa-a78b-7fbfe24f2dc9))
+    (pin "1" (uuid b1b9d1d7-28c5-4343-b9a0-d2a3014766b5))
+    (pin "2" (uuid e824471a-7fce-4b85-ad7c-53df09e3669b))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -3453,8 +3453,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 53.34 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30464de5-3729-44b1-af6e-da5cad266c4d))
-    (pin "2" (uuid 229322d2-4efe-4c9f-abd4-0e64d02c73a8))
+    (pin "1" (uuid e8df1e87-f299-4504-854f-5aa493c3d960))
+    (pin "2" (uuid 77ba0c59-ae96-4a47-8d1d-9e07074b9a8d))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -3512,8 +3512,8 @@
     (property "Tolerance" "5%" (at 95.25 88.265 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 5bb164bd-50c3-46dd-9005-9014c5cfd8ea))
-    (pin "2" (uuid e4baebff-6233-4d7f-8c3f-18ca2ed91de8))
+    (pin "1" (uuid f1605172-84ca-4d9f-a1f8-797d80aa9ba1))
+    (pin "2" (uuid 698739df-9bbf-4633-aca1-fb9b06044b92))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -3673,8 +3673,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 53.34 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55bab326-17ab-4cc2-b799-209213f3724f))
-    (pin "2" (uuid 7b5931b2-80b1-4ecb-bbf1-ccdfa0b2044d))
+    (pin "1" (uuid 89cb52ff-5016-4dab-af50-1e96cbce815e))
+    (pin "2" (uuid 165997d3-27f3-4b17-834c-465fdf029d2d))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -3732,8 +3732,8 @@
     (property "Tolerance" "5%" (at 95.25 144.145 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a6e02cf1-65b2-4aa7-b70c-d573b56baaf1))
-    (pin "2" (uuid 993766cd-ab54-4280-8716-42f33c186f0a))
+    (pin "1" (uuid 51307027-9227-4dd4-875a-7e59e55a69f2))
+    (pin "2" (uuid f779c47c-e2ce-4de7-ac70-f8f35e4bfe8b))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -3788,8 +3788,8 @@
     (property "Tolerance" "5%" (at 95.25 161.925 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid ba6c7cf7-9e5e-4cf1-ba06-cb84dada3772))
-    (pin "2" (uuid 7b81d835-0f99-42e8-b65a-b9de22e6e1e3))
+    (pin "1" (uuid d1c9ca7b-2042-4c4c-8dec-196964c15129))
+    (pin "2" (uuid e9752dec-e426-471e-b4af-c27d2ca7b8d0))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"

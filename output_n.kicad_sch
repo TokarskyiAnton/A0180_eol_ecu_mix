@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "EOL ECU POWER CARD")
-    (date "2023-04-03")
-    (rev "0B")
+    (title "EOL ECU MIX CARD")
+    (date "2023-09-26")
+    (rev "0C")
     (company "ARXTRON TECHNOLOGIES")
     (comment 1 "A0180-V0")
     (comment 2 "PRJ22180")

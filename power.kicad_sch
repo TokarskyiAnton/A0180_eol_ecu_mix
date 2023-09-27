@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "EOL ECU POWER CARD")
-    (date "2023-04-03")
-    (rev "0B")
+    (title "EOL ECU MIX CARD")
+    (date "2023-09-26")
+    (rev "0C")
     (company "ARXTRON TECHNOLOGIES")
     (comment 1 "A0180-V0")
     (comment 2 "PRJ22180")
@@ -4362,8 +4362,8 @@
     (property "Tolerance" "5%" (at 49.53 51.435 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 596ba374-def5-41d2-9108-04ea4baf84b7))
-    (pin "2" (uuid 3a278594-aaf1-47be-a38b-916113e519f1))
+    (pin "1" (uuid 81c1525f-14b0-431a-a36b-0aa4950f4a97))
+    (pin "2" (uuid 99238881-b8d6-4ff0-a287-d21c9c3a811f))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -4566,8 +4566,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 11.43 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb652066-38f6-42b7-b616-b2f18396271b))
-    (pin "2" (uuid b5f5069d-c4e8-4260-98af-5976837ee4bd))
+    (pin "1" (uuid 52050af9-ec87-418b-9fab-17de8f4f7a44))
+    (pin "2" (uuid a1549b28-3c4f-459a-bb6d-a156dbba5fac))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -4634,8 +4634,8 @@
     (property "fit_field" "" (at 49.53 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 639d7e75-32e1-40a4-a673-4eaa8ad3d981))
-    (pin "2" (uuid 0e00404c-09a6-459c-b8ff-6e444541f294))
+    (pin "1" (uuid b7db1b4c-f6d1-4ca2-a4ff-f38e73260993))
+    (pin "2" (uuid dd26113e-b16e-463b-ae47-b76fb0470af7))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -4654,47 +4654,50 @@
     )
   )
 
-  (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 50.8 236.22 0) (unit 1)
+  (symbol (lib_id "Resistor_Yageo:RC0603FR-07510RL") (at 50.8 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1560edf2-001e-4057-a4d0-5bb72986b899)
     (property "Reference" "R14" (at 50.8 233.68 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "RC0603JR-072K2L" (at 50.8 238.76 0)
+    (property "Value" "RC0603FR-07510RL" (at 50.8 238.76 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Resistor_Yageo_RC:RESC1608X65N" (at 50.8 261.62 0)
+    (property "Footprint" "Resistor_Yageo_RC:RESC1608X65N" (at 50.8 259.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 49.53 236.22 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Description" "RES SMD 2.2K OHM 5% 1/10W 0603" (at 50.8 243.205 0)
+    (property "Description" "RES SMD 510 OHM 1% 1/10W 0603" (at 50.8 246.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Power" "1/10W" (at 50.8 255.905 0)
+    (property "Power" "1/10W" (at 50.8 251.46 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 50.8 250.825 0)
+    (property "SupplierPartNumber" "311-510HRCT-ND" (at 50.8 243.84 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Nominal" "2.2k" (at 50.8 236.22 0)
+    (property "Nominal" "510" (at 50.8 236.22 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Tolerance" "5%" (at 50.8 253.365 0)
+    (property "Supplier" "Digi-Key" (at 50.8 256.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Supplier" "Digi-Key" (at 50.8 240.665 0)
+    (property "SupplierDevicePackage" "R0603" (at 50.8 254 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "SupplierDevicePackage" "R0603" (at 50.8 258.445 0)
+    (property "ManufacturerPartNumber" "RC0603FR-07510RL" (at 50.8 241.3 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "ManufacturerPartNumber" "RC0603JR-072K2L" (at 50.8 245.745 0)
+    (property "Manufacturer" "Yageo" (at 50.8 248.92 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Manufacturer" "Yageo" (at 50.8 248.285 0)
-      (effects (font (size 1.524 1.524)) hide)
+    (property "Variant" "" (at 50.8 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "fit_field" "" (at 50.8 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 82731300-72f0-4b78-b39b-2381af07308a))
     (pin "2" (uuid f5040436-6d6b-499f-b76f-ea777dc0a822))
@@ -5001,8 +5004,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 7.62 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c2db1fcc-ee81-458b-8f00-598862f74e49))
-    (pin "2" (uuid cfbe4e68-78ea-4948-b340-04835e527a58))
+    (pin "1" (uuid 17e2d8ca-ac74-4c8e-a3b6-5a7ec3317e23))
+    (pin "2" (uuid c128ea95-41d3-49f5-81b9-18af58430892))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -5274,8 +5277,8 @@
     (property "Manufacturer" "Yageo" (at 230.505 240.03 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid ae856bd1-661b-4e9b-ba05-6b0b05816d3a))
-    (pin "2" (uuid 3dfae2e9-c453-49ef-af3d-51e7e8903aa7))
+    (pin "1" (uuid bd495881-c3f8-4b3b-9618-46b5b85ca208))
+    (pin "2" (uuid 088152f6-61c0-4aae-b668-d393e32633b9))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -5333,8 +5336,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 218.44 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2f41a51-d6ab-4c95-a25a-59a934be9b68))
-    (pin "2" (uuid 1cd31361-d8ad-415b-8d6d-4a58e544ec26))
+    (pin "1" (uuid 858b7e34-d026-443b-a1cc-41817eba404a))
+    (pin "2" (uuid c5bc158f-9bb1-47dc-878f-ef28b6869583))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -5454,8 +5457,8 @@
     (property "Manufacturer" "Yageo" (at 89.535 270.51 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 6fb587dc-189e-48d2-b730-19e2563c61d8))
-    (pin "2" (uuid 0d09ac5f-0eb3-40a0-863a-96223525e6b3))
+    (pin "1" (uuid 6417996e-f2f6-4fc5-8b84-19c92d534f22))
+    (pin "2" (uuid 78453ed0-0768-4836-837a-a5f99d127e7d))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -6194,50 +6197,53 @@
     )
   )
 
-  (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 190.5 248.92 0) (mirror y) (unit 1)
+  (symbol (lib_id "Resistor_Yageo:RC0603FR-07510RL") (at 190.5 248.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ddb437b-9ede-4879-ad77-4f3be67083ee)
     (property "Reference" "R14" (at 190.5 246.38 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "RC0603JR-072K2L" (at 190.5 251.46 0)
+    (property "Value" "RC0603FR-07510RL" (at 190.5 251.46 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Resistor_Yageo_RC:RESC1608X65N" (at 190.5 274.32 0)
+    (property "Footprint" "Resistor_Yageo_RC:RESC1608X65N" (at 190.5 271.78 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 191.77 248.92 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Description" "RES SMD 2.2K OHM 5% 1/10W 0603" (at 190.5 255.905 0)
+    (property "Description" "RES SMD 510 OHM 1% 1/10W 0603" (at 190.5 259.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Power" "1/10W" (at 190.5 268.605 0)
+    (property "Power" "1/10W" (at 190.5 264.16 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 190.5 263.525 0)
+    (property "SupplierPartNumber" "311-510HRCT-ND" (at 190.5 256.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Nominal" "2.2k" (at 190.5 248.92 0)
+    (property "Nominal" "510" (at 190.5 248.92 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Tolerance" "5%" (at 190.5 266.065 0)
+    (property "Supplier" "Digi-Key" (at 190.5 269.24 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Supplier" "Digi-Key" (at 190.5 253.365 0)
+    (property "SupplierDevicePackage" "R0603" (at 190.5 266.7 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "SupplierDevicePackage" "R0603" (at 190.5 271.145 0)
+    (property "ManufacturerPartNumber" "RC0603FR-07510RL" (at 190.5 254 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "ManufacturerPartNumber" "RC0603JR-072K2L" (at 190.5 258.445 0)
+    (property "Manufacturer" "Yageo" (at 190.5 261.62 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Manufacturer" "Yageo" (at 190.5 260.985 0)
-      (effects (font (size 1.524 1.524)) hide)
+    (property "Field-1" "" (at 190.5 248.92 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 386abd01-3599-4ce4-be7e-3358bb8b9505))
-    (pin "2" (uuid e0638523-ac81-4f19-a5e4-7b873410bfbf))
+    (property "Field-1" "" (at 190.5 248.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 577629c5-6d7d-4d9a-91cf-cef0327594cf))
+    (pin "2" (uuid 55f9d0d9-9322-47b2-8b1c-02af465c9f73))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -6351,8 +6357,8 @@
     (property "Tolerance" "5%" (at 146.05 76.835 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 6a6718a1-c49c-4cff-955b-b65d3a908939))
-    (pin "2" (uuid 654b7e22-dba0-4068-b553-c08e0bc4bd36))
+    (pin "1" (uuid a5bb0c8e-1a55-4b6f-ba6b-1a6fad688400))
+    (pin "2" (uuid fe35f9f4-daac-4289-9885-6462400a993e))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -6416,8 +6422,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 7.62 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7558bd80-5953-45cd-9a69-11d2623f78d7))
-    (pin "2" (uuid eb662db3-d001-48fa-b1ee-ad70916a741e))
+    (pin "1" (uuid 21a72610-4bac-480f-9407-037a594c1264))
+    (pin "2" (uuid b3e7a30a-7dbd-4164-82d1-7c9a38a2b72e))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -6652,8 +6658,8 @@
     (property "Tolerance" "5%" (at 146.05 51.435 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 183c908a-7fdc-49e6-b646-92d00d5d9c47))
-    (pin "2" (uuid b743deed-478a-4d2d-9a83-96bd195f4aba))
+    (pin "1" (uuid 6ff40507-e71a-4101-8ede-4be43d705b16))
+    (pin "2" (uuid a6debdfd-3c26-4788-a946-c7449e95bebe))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -7212,8 +7218,8 @@
     (property "fit_field" "" (at 369.57 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1530424-437e-4a59-aa9a-34d009413e67))
-    (pin "2" (uuid 7079db77-2366-43dc-869d-2dd587503a22))
+    (pin "1" (uuid 22ddbf68-b195-4cfb-b83f-32cdc2fd864c))
+    (pin "2" (uuid 887c88ad-e40d-413d-987f-61fba632d85f))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -7274,8 +7280,8 @@
     (property "SupplierPartNumber" "311-2.2KGRCT-ND" (at 7.62 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d91a8643-c990-4f8e-a672-78e6d2383285))
-    (pin "2" (uuid 136179ed-a417-4ce5-a7d7-dcfbed09a3e7))
+    (pin "1" (uuid 9b27dee0-91f9-48a8-bcb9-6838e8b76c6e))
+    (pin "2" (uuid 2666dcb2-178e-47d0-ada0-9279452ee077))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23/00000000-0000-0000-0000-00005ce78932"
@@ -7482,8 +7488,8 @@
     (property "Manufacturer" "Yageo" (at 145.415 231.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 6b8ce2d7-ecd4-42ba-ad02-d842b47b54b3))
-    (pin "2" (uuid 22629844-9045-4a6b-b90e-6e48760709f3))
+    (pin "1" (uuid fce71b8a-d0d4-4c5d-b582-cb9f8ed1bd2f))
+    (pin "2" (uuid ca579e92-491c-439b-8a75-b75bc1906d6a))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -7606,8 +7612,8 @@
     (property "fit_field" "" (at 201.93 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aabf6788-5e0a-40cf-b090-6fd236553148))
-    (pin "2" (uuid a46ada88-211d-4d80-bf49-c8b1845b59af))
+    (pin "1" (uuid 6509f031-5743-4af4-a8f1-3b8b2e2ad526))
+    (pin "2" (uuid 52c8370f-cc7f-499e-9956-108008a5f3a8))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
@@ -7724,8 +7730,8 @@
     (property "Tolerance" "5%" (at 161.29 51.435 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 68a82b7e-cce9-4a62-9827-79eaeac4fb6f))
-    (pin "2" (uuid 4747069e-6a54-4843-957c-e5165f8fd11e))
+    (pin "1" (uuid ea49c915-76c2-4b41-b7d4-3766a93076b3))
+    (pin "2" (uuid 5d8f5f15-5ed9-48ac-92b3-9d5036de5934))
     (instances
       (project "A0180_eol_ecu_mix"
         (path "/a505f839-056b-47d1-a2e3-8d0a1723ab23"
