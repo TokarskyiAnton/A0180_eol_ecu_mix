@@ -1,4 +1,4 @@
-(kicad_sch (version 20230620) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid a505f839-056b-47d1-a2e3-8d0a1723ab23)
 
@@ -16,7 +16,7 @@
   )
 
   (lib_symbols
-    (symbol "BomPart_Schroff:FP_4U" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "BomPart_Schroff:FP_4U" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "FP" (at -8.89 1.27 0)
         (effects (font (size 1.524 1.524)) (justify left) hide)
       )
@@ -61,7 +61,7 @@
         )
       )
     )
-    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at -5.08 1.27 90)
         (effects (font (size 1.524 1.524)) (justify left))
       )
@@ -133,7 +133,7 @@
         )
       )
     )
-    (symbol "Capacitor_KEMET:C0805C101K5RACTU" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_KEMET:C0805C101K5RACTU" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 5.08 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -205,7 +205,7 @@
         )
       )
     )
-    (symbol "Connector_Phoenix:1786976" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector_Phoenix:1786976" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -373,7 +373,7 @@
         )
       )
     )
-    (symbol "Connector_TE:5536437-4" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector_TE:5536437-4" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 3.81 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -801,7 +801,7 @@
         )
       )
     )
-    (symbol "Dialight:5151049F" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Dialight:5151049F" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "LP" (at 0 3.81 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -900,7 +900,7 @@
         )
       )
     )
-    (symbol "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "K" (at 0.635 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1055,7 +1055,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603FR-074K7L" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603FR-074K7L" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1114,7 +1114,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603JR-070RL" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603JR-070RL" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1173,7 +1173,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0805JR-071ML" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0805JR-071ML" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1234,7 +1234,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RT0603BRD07432KL" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RT0603BRD07432KL" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1287,7 +1287,7 @@
         )
       )
     )
-    (symbol "TI:ULN2803ADWR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "TI:ULN2803ADWR" (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 19.05 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1401,7 +1401,7 @@
         )
       )
     )
-    (symbol "_manufacturing:4_LAYER_STACKUP" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "_manufacturing:4_LAYER_STACKUP" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TABLE" (at 7.62 1.27 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -1444,7 +1444,7 @@
         )
       )
     )
-    (symbol "_manufacturing:ARXTRON_NAME" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "_manufacturing:ARXTRON_NAME" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TABLE" (at 6.35 2.54 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -1485,7 +1485,7 @@
         )
       )
     )
-    (symbol "_manufacturing:ASSEMBLY_NOTES" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "_manufacturing:ASSEMBLY_NOTES" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TABLE" (at 6.35 1.27 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -1526,7 +1526,7 @@
         )
       )
     )
-    (symbol "_manufacturing:FABRICATION_NOTES" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "_manufacturing:FABRICATION_NOTES" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TABLE" (at 6.35 1.27 0)
         (effects (font (size 1.524 1.524)) hide)
       )
@@ -1567,7 +1567,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_24V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1610,7 +1610,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1650,7 +1650,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_CAN" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_CAN" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1693,7 +1693,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_DUT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_DUT" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1736,7 +1736,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_ESD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_ESD" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1779,7 +1779,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_PS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_PS" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1822,7 +1822,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_SIM" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_SIM" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1865,7 +1865,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_USB" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_USB" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1908,7 +1908,7 @@
         )
       )
     )
-    (symbol "_power_symbol:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 2.413 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -11952,7 +11952,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 171.45 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce73311)
     (property "Reference" "R1" (at 171.45 54.61 0)
       (effects (font (size 1.524 1.524)))
@@ -12008,7 +12008,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 177.8 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce74987)
     (property "Reference" "#PWR02" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12039,7 +12039,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 168.91 114.3 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce75355)
     (property "Reference" "R2" (at 168.91 111.76 0)
       (effects (font (size 1.524 1.524)))
@@ -12095,7 +12095,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 168.91 273.05 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce7ca4f)
     (property "Reference" "R69" (at 168.91 270.51 0)
       (effects (font (size 1.524 1.524)))
@@ -12151,7 +12151,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 177.8 275.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce7ca60)
     (property "Reference" "#PWR015" (at 177.8 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12182,7 +12182,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 280.67 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cf4f64d)
     (property "Reference" "#PWR020" (at 280.67 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12213,7 +12213,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_DUT") (at 285.75 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d048305)
     (property "Reference" "#PWR019" (at 285.75 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12247,7 +12247,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 290.83 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d048762)
     (property "Reference" "#PWR051" (at 290.83 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12281,7 +12281,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 280.67 267.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d048973)
     (property "Reference" "#PWR053" (at 280.67 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12315,7 +12315,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_USB") (at 295.91 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d048d22)
     (property "Reference" "#PWR052" (at 295.91 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12349,7 +12349,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0805JR-071ML") (at 250.19 266.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005d0a7ba9)
     (property "Reference" "R111" (at 250.19 264.16 0)
       (effects (font (size 1.524 1.524)))
@@ -12402,7 +12402,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 259.08 266.7 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d0fca81)
     (property "Reference" "#PWR0159" (at 265.43 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12436,7 +12436,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_ESD") (at 241.3 266.7 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d1522e7)
     (property "Reference" "#PWR0160" (at 234.95 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12470,7 +12470,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0805JR-071ML") (at 250.19 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005d252bb0)
     (property "Reference" "R112" (at 250.19 269.24 0)
       (effects (font (size 1.524 1.524)))
@@ -12523,7 +12523,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 259.08 271.78 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d252bb7)
     (property "Reference" "#PWR0182" (at 265.43 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12557,7 +12557,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_ESD") (at 241.3 271.78 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d252bbe)
     (property "Reference" "#PWR0184" (at 234.95 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12591,7 +12591,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_ESD") (at 285.75 267.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d2a937e)
     (property "Reference" "#PWR0186" (at 285.75 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12625,7 +12625,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 285.75 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d2ff8df)
     (property "Reference" "#FLG0101" (at 285.75 263.017 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12653,7 +12653,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 68.58 152.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 015d01b7-8fab-48f7-929c-1649a6ae9aa5)
     (property "Reference" "#PWR0112" (at 68.58 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12696,7 +12696,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 33.02 210.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 075f935d-0600-4fa2-90ff-fa5f34677255)
     (property "Reference" "R11" (at 41.91 209.55 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -12746,7 +12746,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 34.29 57.15 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 082ddc4f-3659-4daa-837f-cdd5434e8651)
     (property "Reference" "#PWR?" (at 40.64 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12836,7 +12836,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 215.9 251.46 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bbf5ffc-7121-442d-a078-edf3f4e24a20)
     (property "Reference" "#PWR080" (at 222.25 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12870,7 +12870,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 110.49 85.09 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e8de7d7-819b-4be1-a254-dd57f5829946)
     (property "Reference" "#PWR?" (at 116.84 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12960,7 +12960,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 368.3 222.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1339e48c-fe97-462c-a715-7ed7c41542cf)
     (property "Reference" "R?" (at 365.76 222.25 0)
       (effects (font (size 1.524 1.524)))
@@ -13007,7 +13007,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 110.49 62.23 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 18497239-d731-43cf-a8d8-a1eeef511bb4)
     (property "Reference" "#PWR?" (at 116.84 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13097,7 +13097,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 388.62 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1865bdd7-c335-4e8f-bd2d-eca448bf3a21)
     (property "Reference" "#PWR?" (at 388.62 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13184,7 +13184,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 72.39 85.09 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 209cd7e3-ee8c-47d0-9174-9191d9e91020)
     (property "Reference" "#PWR?" (at 78.74 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13274,7 +13274,7 @@
   )
 
   (symbol (lib_id "_manufacturing:ARXTRON_NAME") (at 393.7 228.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2100a70a-0c4f-49b2-b319-b43ce3c52047)
     (property "Reference" "TABLE2" (at 405.13 222.25 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -13316,7 +13316,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 177.8 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2320e0ce-4902-4e56-b4e7-f5f9b8165808)
     (property "Reference" "#PWR0332" (at 177.8 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13347,7 +13347,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 72.39 62.23 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 23e1e1ad-22c6-4bcd-bf8a-c54d91b1efce)
     (property "Reference" "#PWR?" (at 78.74 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13437,7 +13437,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 334.01 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 253e5be5-b3cc-4fb1-b241-98d62f1ad7f4)
     (property "Reference" "R?" (at 331.47 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -13484,7 +13484,7 @@
   )
 
   (symbol (lib_id "Connector_TE:5536437-4") (at 26.67 21.59 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 256ce3f8-d100-4521-a3de-b982efe50bfb)
     (property "Reference" "J1" (at 22.86 17.78 0)
       (effects (font (size 1.524 1.524)))
@@ -13619,7 +13619,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 110.49 90.17 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 29226ca7-c8f0-48d7-ae6f-fb57a1aabce4)
     (property "Reference" "#PWR?" (at 116.84 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13709,7 +13709,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 295.91 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 29ea10e2-4eb7-4fac-b7a6-ec277164a586)
     (property "Reference" "#FLG07" (at 295.91 263.017 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13737,7 +13737,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 72.39 90.17 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cc70185-098d-42c6-b935-46d1c959e74a)
     (property "Reference" "#PWR?" (at 78.74 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13827,7 +13827,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 344.17 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 34645207-3cc2-4988-adb9-5275d0979331)
     (property "Reference" "#PWR?" (at 344.17 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -13914,7 +13914,7 @@
   )
 
   (symbol (lib_id "_manufacturing:4_LAYER_STACKUP") (at 393.7 220.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 354ea845-58fe-4869-bea6-aa2cb93a1004)
     (property "Reference" "TABLE1" (at 405.13 214.63 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -13956,7 +13956,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 110.49 57.15 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 366e2746-5d97-4922-97f5-a7806eba5699)
     (property "Reference" "#PWR?" (at 116.84 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14046,7 +14046,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 388.62 49.53 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b32e40e-6b66-4faf-9327-b0fe74e79516)
     (property "Reference" "#PWR?" (at 382.27 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14130,7 +14130,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 363.22 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b964d8a-52ab-4eb2-9a00-cef8884e12ff)
     (property "Reference" "R?" (at 360.68 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -14177,7 +14177,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 280.67 275.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bb1dcec-f4cf-4960-aa88-07fd9c3d95cd)
     (property "Reference" "#FLG04" (at 280.67 273.177 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14205,7 +14205,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_SIM") (at 295.91 267.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4909bce4-0fbe-4a36-84d4-964dd1dd18a3)
     (property "Reference" "#PWR0197" (at 295.91 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14286,7 +14286,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 34.29 85.09 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d2afd91-f5b9-470a-9f3c-274ab0de99a7)
     (property "Reference" "#PWR?" (at 40.64 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14376,7 +14376,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 110.49 34.29 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5868085a-6f9f-42e4-941e-d72691f72b1b)
     (property "Reference" "#PWR?" (at 116.84 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14466,7 +14466,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 48.26 218.44 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 59fb6471-18a4-483b-a9b8-588de14dd98a)
     (property "Reference" "#PWR0138" (at 48.26 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14500,7 +14500,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 368.3 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a47bf41-05ca-4a58-992a-2abbc853b138)
     (property "Reference" "R?" (at 365.76 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -14547,7 +14547,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 290.83 275.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c35846a-43fa-4feb-bb61-deb0a5ac805a)
     (property "Reference" "#FLG02" (at 290.83 273.177 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14575,7 +14575,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_SIM") (at 110.49 80.01 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 721baa18-585b-4aac-ab66-e263a44e29b2)
     (property "Reference" "#PWR0167" (at 116.84 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14662,7 +14662,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 215.9 246.38 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 76c6ccfe-cd03-411a-8628-65e871be92f4)
     (property "Reference" "#PWR?" (at 222.25 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14746,7 +14746,7 @@
   )
 
   (symbol (lib_id "_manufacturing:ASSEMBLY_NOTES") (at 393.7 243.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 778cd308-d535-40da-8e77-6513c5d97c78)
     (property "Reference" "TABLE4" (at 414.02 242.57 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -14785,7 +14785,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 344.17 222.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c252862-2944-4fa8-b440-9f57b5972712)
     (property "Reference" "R?" (at 341.63 222.25 0)
       (effects (font (size 1.524 1.524)))
@@ -14832,7 +14832,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 344.17 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cb4e354-4bc7-4c15-9205-75aafd9713f3)
     (property "Reference" "R?" (at 341.63 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -14879,7 +14879,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 34.29 62.23 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 881b38fe-1b0a-456c-a6fb-c4f6bc8aed43)
     (property "Reference" "#PWR?" (at 40.64 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14969,7 +14969,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 215.9 231.14 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b5926e2-bdbc-4c0d-adf3-22a8ad0b7522)
     (property "Reference" "#PWR069" (at 222.25 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15003,7 +15003,7 @@
   )
 
   (symbol (lib_id "Dialight:5151049F") (at 267.97 281.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bbb309e-70f0-4c53-b895-a1f8b0c07f2a)
     (property "Reference" "LP1" (at 267.97 278.13 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -15042,7 +15042,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 339.09 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c232149-8d69-4011-bfc2-73ecfcc8f37a)
     (property "Reference" "R?" (at 336.55 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -15089,7 +15089,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 171.45 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa43a07-b8f6-46a7-a847-83479f048834)
     (property "Reference" "R3" (at 171.45 163.83 0)
       (effects (font (size 1.524 1.524)))
@@ -15145,7 +15145,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 295.91 275.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9265478d-7e6d-44e3-b8c5-14e9bf5b1e49)
     (property "Reference" "#FLG03" (at 295.91 273.177 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15173,7 +15173,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 177.8 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d687ee0-5792-4f45-8f67-2c6a7af82b20)
     (property "Reference" "#PWR038" (at 177.8 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15204,7 +15204,7 @@
   )
 
   (symbol (lib_id "BomPart_Schroff:FP_4U") (at 255.27 284.48 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a2d2ffeb-2aa7-4615-8ac7-87aca63c9e78)
     (property "Reference" "FP1" (at 248.92 275.59 0)
       (effects (font (size 1.524 1.524)))
@@ -15263,7 +15263,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 275.59 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid aa6d7226-d3e2-4e1d-ad1c-0b499c00dc05)
     (property "Reference" "#FLG08" (at 275.59 263.017 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15291,7 +15291,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 388.62 46.99 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b1ee6a00-69c9-4ede-a0ee-9c315537484e)
     (property "Reference" "#PWR?" (at 382.27 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15375,7 +15375,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_SIM") (at 72.39 80.01 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b2c31971-a6d4-4d4a-880b-af55baf7acbc)
     (property "Reference" "#PWR0151" (at 78.74 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15462,7 +15462,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 33.02 215.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b7e1e294-c6c7-413d-b586-d4538644a941)
     (property "Reference" "R13" (at 41.91 214.63 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -15512,7 +15512,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 33.02 213.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid bccd071b-434a-4166-997b-555db4c41011)
     (property "Reference" "R12" (at 41.91 212.09 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -15562,7 +15562,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0805JR-071ML") (at 384.81 116.84 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c0b27718-0521-4856-a777-216ea07033a3)
     (property "Reference" "R5" (at 387.35 111.76 90)
       (effects (font (size 1.524 1.524)))
@@ -15612,7 +15612,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 68.58 143.51 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c67c377b-3259-4ea6-a18f-33ba42f58e16)
     (property "Reference" "C31" (at 69.85 138.43 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -15674,7 +15674,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 290.83 267.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ca48c143-dff4-4826-a4f8-b949d3a30911)
     (property "Reference" "#PWR?" (at 290.83 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -15758,7 +15758,7 @@
   )
 
   (symbol (lib_id "Dialight:5151049F") (at 271.78 281.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cc4cde7b-5701-43c3-8f2d-08eef435551c)
     (property "Reference" "LP2" (at 271.78 278.13 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -15797,7 +15797,7 @@
   )
 
   (symbol (lib_id "Connector_TE:5536437-4") (at 102.87 21.59 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cdccc1fc-37ca-4633-80f6-e2f1c82eb7e6)
     (property "Reference" "J1" (at 99.06 17.78 0)
       (effects (font (size 1.524 1.524)))
@@ -15932,7 +15932,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 358.14 240.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d058b634-19d7-483c-a558-1e49f66be86e)
     (property "Reference" "R?" (at 355.6 240.03 0)
       (effects (font (size 1.524 1.524)))
@@ -15979,7 +15979,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 72.39 57.15 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d243733e-d099-4451-a5dd-e61436c82aba)
     (property "Reference" "#PWR?" (at 78.74 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16069,7 +16069,7 @@
   )
 
   (symbol (lib_id "TI:ULN2803ADWR") (at 48.26 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d2663714-3e92-41bc-a6c6-7a7f923c132e)
     (property "Reference" "U4" (at 48.26 110.49 0)
       (effects (font (size 1.524 1.524)))
@@ -16144,7 +16144,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_SIM") (at 34.29 80.01 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d6bc170f-525c-4584-b627-66f9a904cbd7)
     (property "Reference" "#PWR0142" (at 40.64 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16231,7 +16231,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 290.83 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d9e971d0-adac-4f6c-951a-042f8d1af7e9)
     (property "Reference" "#FLG06" (at 290.83 263.017 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16259,7 +16259,7 @@
   )
 
   (symbol (lib_id "_manufacturing:FABRICATION_NOTES") (at 393.7 236.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid db1cf603-72a7-4429-b6bd-d06bdd6be38b)
     (property "Reference" "TABLE3" (at 414.02 234.95 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -16298,7 +16298,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 215.9 236.22 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e2d88438-6969-403e-8349-f9b05bf0e636)
     (property "Reference" "#PWR?" (at 222.25 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16382,7 +16382,7 @@
   )
 
   (symbol (lib_id "Connector_Phoenix:1786976") (at 391.16 21.59 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e59f60f1-a8e2-4c62-ba35-650452b48ef6)
     (property "Reference" "J2" (at 401.32 17.78 0)
       (effects (font (size 1.524 1.524)))
@@ -16456,7 +16456,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_SIM") (at 215.9 241.3 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e9bb9e96-5087-449c-9642-82ce40c30824)
     (property "Reference" "#PWR0197" (at 222.25 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16537,7 +16537,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 171.45 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid eb6e1b25-36db-476f-b67c-4034786a2909)
     (property "Reference" "R4" (at 171.45 171.45 0)
       (effects (font (size 1.524 1.524)))
@@ -16593,7 +16593,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 368.3 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f075b443-5230-4eb6-977c-961148138195)
     (property "Reference" "#PWR0114" (at 368.3 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16627,7 +16627,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 34.29 90.17 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f0a87909-7a2c-416c-935c-145e0d646751)
     (property "Reference" "#PWR?" (at 40.64 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16717,7 +16717,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 285.75 275.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f2d09199-14c8-4cca-8e15-ce8b7a890aac)
     (property "Reference" "#FLG05" (at 285.75 273.177 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16745,7 +16745,7 @@
   )
 
   (symbol (lib_id "_power_symbol:PWR_FLAG") (at 280.67 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f3437202-7961-47c9-ad12-ae31fafed200)
     (property "Reference" "#FLG01" (at 280.67 263.017 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16773,7 +16773,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 27.94 134.62 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f53d2379-c78f-4231-84e2-9a131738e38b)
     (property "Reference" "#PWR07" (at 21.59 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16807,7 +16807,7 @@
   )
 
   (symbol (lib_id "Capacitor_KEMET:C0805C101K5RACTU") (at 392.43 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f93476ff-6c96-409c-bc34-0d0fb31f40fe)
     (property "Reference" "C58" (at 393.7 111.76 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -16863,7 +16863,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 76.2 114.3 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid faca2ca7-ced9-48b1-94a8-8a114de95c27)
     (property "Reference" "K33" (at 88.9 113.03 0)
       (effects (font (size 1.524 1.524)))
@@ -16928,7 +16928,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_ESD") (at 262.89 284.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fc1c2e2e-43f9-4e66-a183-9ddb1c10a3c0)
     (property "Reference" "#PWR010" (at 262.89 290.83 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16962,7 +16962,7 @@
   )
 
   (symbol (lib_id "Connector_TE:5536437-4") (at 64.77 21.59 0) (mirror y) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fd284752-6308-4560-9a5f-bfa80eca0ff3)
     (property "Reference" "J1" (at 60.96 17.78 0)
       (effects (font (size 1.524 1.524)))

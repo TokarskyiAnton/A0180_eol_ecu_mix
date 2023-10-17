@@ -1,4 +1,4 @@
-(kicad_sch (version 20230620) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 85c940fa-d0de-4af0-8764-34f2951428c2)
 
@@ -16,7 +16,7 @@
   )
 
   (lib_symbols
-    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at -5.08 1.27 90)
         (effects (font (size 1.524 1.524)) (justify left))
       )
@@ -88,7 +88,7 @@
         )
       )
     )
-    (symbol "CopalElectronics:CHS-04TB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "CopalElectronics:CHS-04TB" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "XW" (at 12.7 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -228,7 +228,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603FR-074K7L" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603FR-074K7L" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -287,7 +287,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603JR-070RL" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603JR-070RL" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -346,7 +346,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603JR-072K2L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603JR-072K2L" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -408,7 +408,7 @@
         )
       )
     )
-    (symbol "Toshiba:TLP290-4(TPE" (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+    (symbol "Toshiba:TLP290-4(TPE" (pin_names (offset 0.762) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1288,7 +1288,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_24V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1331,7 +1331,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1974,7 +1974,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 175.26 34.29 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0567ad1d-46e8-411f-aaa4-39497913346c)
     (property "Reference" "R?" (at 176.53 25.4 0)
       (effects (font (size 1.524 1.524)))
@@ -2045,7 +2045,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 104.14 52.07 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 16937743-76ab-4730-9094-21383b33a553)
     (property "Reference" "R?" (at 106.68 52.07 0)
       (effects (font (size 1.524 1.524)))
@@ -2107,7 +2107,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 170.18 50.8 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a73b30f-7699-462e-b551-e476e02381a8)
     (property "Reference" "#PWR087" (at 176.53 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2144,7 +2144,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 361.95 97.79 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b6f8a07-4271-4d47-aeae-b1b1e3e940c1)
     (property "Reference" "#PWR017" (at 368.3 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2181,7 +2181,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 361.95 95.25 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d4da113-086c-4f79-9358-97416667748f)
     (property "Reference" "#PWR067" (at 368.3 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2218,7 +2218,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 177.8 34.29 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a81b360-d053-444c-94c3-74e96b231f0a)
     (property "Reference" "R?" (at 179.07 25.4 0)
       (effects (font (size 1.524 1.524)))
@@ -2289,7 +2289,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2df4b8f7-1805-4044-ba4d-32c41cc3cf26)
     (property "Reference" "R?" (at 95.25 96.52 0)
       (effects (font (size 1.524 1.524)))
@@ -2345,7 +2345,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 113.03 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 417c3878-25da-49f3-a77a-bbf91896bcfb)
     (property "Reference" "C?" (at 114.3 74.93 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2410,7 +2410,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 353.06 97.79 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 44504568-8184-4aee-a5de-c7080235105a)
     (property "Reference" "R?" (at 342.9 96.52 0)
       (effects (font (size 1.524 1.524)))
@@ -2463,7 +2463,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b8d5792-466f-4e13-913b-c18db4050eb4)
     (property "Reference" "R?" (at 95.25 86.36 0)
       (effects (font (size 1.524 1.524)))
@@ -2519,7 +2519,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 113.03 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4beb7b3f-41d7-4fa6-b025-2ccec1c08fef)
     (property "Reference" "C?" (at 114.3 102.87 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2596,7 +2596,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 189.23 34.29 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e471364-b16e-418e-a07a-e3d92d32e2f7)
     (property "Reference" "R?" (at 190.5 25.4 0)
       (effects (font (size 1.524 1.524)))
@@ -2667,7 +2667,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 113.03 135.89 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5187d288-f760-4dd5-b412-c1f24cf52c30)
     (property "Reference" "C?" (at 114.3 130.81 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2732,7 +2732,7 @@
   )
 
   (symbol (lib_id "Toshiba:TLP290-4(TPE") (at 153.67 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6007601f-e6b8-47be-805a-5b2bec4850f6)
     (property "Reference" "U?" (at 153.67 39.37 0)
       (effects (font (size 1.524 1.524)))
@@ -2802,7 +2802,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 170.18 63.5 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 60453955-588e-471a-90cc-bae247842ba6)
     (property "Reference" "#PWR088" (at 176.53 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2839,7 +2839,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 353.06 95.25 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 68a479b0-0d17-4876-8c71-0f62f53f2b07)
     (property "Reference" "R?" (at 342.9 93.98 0)
       (effects (font (size 1.524 1.524)))
@@ -2901,7 +2901,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 73dd5736-476a-4753-a0a3-43174eb3171a)
     (property "Reference" "R?" (at 95.25 58.42 0)
       (effects (font (size 1.524 1.524)))
@@ -2957,7 +2957,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 344.17 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9956c4aa-73d6-4b85-8aff-d56747d85f3e)
     (property "Reference" "#PWR?" (at 344.17 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2997,7 +2997,7 @@
   )
 
   (symbol (lib_id "CopalElectronics:CHS-04TB") (at 341.63 43.18 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b810cd0-455c-4176-b6ae-60557fc1d212)
     (property "Reference" "XW1" (at 328.93 39.37 0)
       (effects (font (size 1.524 1.524)))
@@ -3056,7 +3056,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-070RL") (at 353.06 92.71 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid a0858ac9-8bb3-4e28-9777-3ff66be373f8)
     (property "Reference" "R?" (at 342.9 91.44 0)
       (effects (font (size 1.524 1.524)))
@@ -3118,7 +3118,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a468072e-f2de-4191-bd20-e75a7a66fa52)
     (property "Reference" "R?" (at 95.25 114.3 0)
       (effects (font (size 1.524 1.524)))
@@ -3174,7 +3174,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-074K7L") (at 180.34 34.29 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a6783229-d6b3-4b59-a0d2-2d7f9f222af0)
     (property "Reference" "R?" (at 181.61 25.4 0)
       (effects (font (size 1.524 1.524)))
@@ -3245,7 +3245,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 170.18 76.2 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b2d09146-53e3-43ad-97f4-d4310cdac57d)
     (property "Reference" "#PWR089" (at 176.53 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3282,7 +3282,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b8513d54-97dd-41f6-b932-b5d0fc407724)
     (property "Reference" "R?" (at 95.25 40.64 0)
       (effects (font (size 1.524 1.524)))
@@ -3347,7 +3347,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 104.14 135.89 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b8d595fe-2c6e-46f6-9583-14e337d6fdb0)
     (property "Reference" "R?" (at 106.68 135.89 0)
       (effects (font (size 1.524 1.524)))
@@ -3409,7 +3409,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 104.14 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid bdc5eed3-15ed-489f-bdab-099c60ca125f)
     (property "Reference" "R?" (at 106.68 107.95 0)
       (effects (font (size 1.524 1.524)))
@@ -3471,7 +3471,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c8301a73-85b9-4143-a3d4-b7047f6c298e)
     (property "Reference" "R?" (at 95.25 68.58 0)
       (effects (font (size 1.524 1.524)))
@@ -3527,7 +3527,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_24V") (at 361.95 92.71 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d757e0b7-105f-4f29-97f7-a026668f6210)
     (property "Reference" "#PWR068" (at 368.3 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3564,7 +3564,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 113.03 52.07 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e93bd8da-02de-4b6e-b101-a2fd3bde16d8)
     (property "Reference" "C?" (at 114.3 46.99 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -3629,7 +3629,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 104.14 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f205e340-3be2-4e29-ae3c-b1aa2853c103)
     (property "Reference" "R?" (at 106.68 80.01 0)
       (effects (font (size 1.524 1.524)))
@@ -3691,7 +3691,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fcc015ad-b218-458d-b09b-3fec073be4fd)
     (property "Reference" "R?" (at 95.25 124.46 0)
       (effects (font (size 1.524 1.524)))
@@ -3747,7 +3747,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 95.25 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid feb7df49-f347-4f2e-9019-c7232e3473a9)
     (property "Reference" "R?" (at 95.25 142.24 0)
       (effects (font (size 1.524 1.524)))

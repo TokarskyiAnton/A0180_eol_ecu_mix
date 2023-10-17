@@ -1,4 +1,4 @@
-(kicad_sch (version 20230620) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 1c99862f-56fd-430c-926d-0da01e6ec137)
 
@@ -16,7 +16,7 @@
   )
 
   (lib_symbols
-    (symbol "Connector_Samtec:SLW-117-01-L-D_VAR1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector_Samtec:SLW-117-01-L-D_VAR1" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "P" (at -10.16 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -189,7 +189,7 @@
         )
       )
     )
-    (symbol "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "K" (at 0.635 3.81 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -344,7 +344,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RT0603BRD07432KL" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RT0603BRD07432KL" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -397,7 +397,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_PS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_PS" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1660,7 +1660,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 95.25 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00bb5ae7-73c4-49f2-814a-b1f46b2ce0d1)
     (property "Reference" "R?" (at 355.6 95.25 0)
       (effects (font (size 1.524 1.524)))
@@ -1710,7 +1710,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 138.43 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 07741e33-fea4-4242-83d1-c6742394312a)
     (property "Reference" "R?" (at 355.6 138.43 0)
       (effects (font (size 1.524 1.524)))
@@ -1760,7 +1760,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 82.55 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d09f4ed-e54e-4adf-8791-7f754ca9ae52)
     (property "Reference" "K8" (at 80.01 81.28 0)
       (effects (font (size 1.524 1.524)))
@@ -1810,7 +1810,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 358.14 121.92 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1462b879-1ed3-432c-a644-66e6fd3e46e7)
     (property "Reference" "#PWR?" (at 358.14 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1900,7 +1900,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 363.22 121.92 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 151ba18b-a61c-4c84-8d87-b72fe081ede8)
     (property "Reference" "#PWR?" (at 363.22 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1990,7 +1990,7 @@
   )
 
   (symbol (lib_id "Connector_Samtec:SLW-117-01-L-D_VAR1") (at 179.07 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1670aa03-ac18-4a4f-9c0b-1d3a5c1342f2)
     (property "Reference" "P1" (at 168.91 152.4 0)
       (effects (font (size 1.524 1.524)))
@@ -2066,7 +2066,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 358.14 199.39 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 19ab66db-05d4-430d-ab82-3e64cf22cb3e)
     (property "Reference" "R?" (at 360.68 199.39 0)
       (effects (font (size 1.524 1.524)))
@@ -2116,7 +2116,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 353.06 165.1 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c254690-57ae-4a9a-a32b-c859f4787459)
     (property "Reference" "#PWR?" (at 353.06 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2206,7 +2206,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 99.06 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c67896d-2941-4ccf-bb74-7de489252585)
     (property "Reference" "K?" (at 251.46 97.79 0)
       (effects (font (size 1.524 1.524)))
@@ -2262,7 +2262,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 77.47 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f79d37b-16ab-4ac1-a962-e8484e614376)
     (property "Reference" "K?" (at 251.46 76.2 0)
       (effects (font (size 1.524 1.524)))
@@ -2318,7 +2318,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 156.21 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fbfffa1-de6c-45e7-a6f7-af1c7a35c9b1)
     (property "Reference" "R?" (at 355.6 156.21 0)
       (effects (font (size 1.524 1.524)))
@@ -2368,7 +2368,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 68.58 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 260d9dfc-5bee-4ac2-9988-5eebd946b4c1)
     (property "Reference" "R?" (at 355.6 68.58 0)
       (effects (font (size 1.524 1.524)))
@@ -2418,7 +2418,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 67.31 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd21aa5-100d-491d-92e7-f6351f4fe011)
     (property "Reference" "K5" (at 80.01 66.04 0)
       (effects (font (size 1.524 1.524)))
@@ -2468,7 +2468,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 72.39 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ef1d0f5-0a3e-48a3-87b0-4f2ba1cdcfc1)
     (property "Reference" "K6" (at 80.01 71.12 0)
       (effects (font (size 1.524 1.524)))
@@ -2518,7 +2518,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 119.38 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 356a2461-8af5-459a-a5e5-4a7c51def4c9)
     (property "Reference" "K13" (at 80.01 118.11 0)
       (effects (font (size 1.524 1.524)))
@@ -2568,7 +2568,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 93.98 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3632918c-8ad8-48f6-91c9-cd4bc48585e3)
     (property "Reference" "K9" (at 80.01 92.71 0)
       (effects (font (size 1.524 1.524)))
@@ -2618,7 +2618,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 109.22 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 38518762-7c7c-42ff-b01f-5e2a647600b0)
     (property "Reference" "K12" (at 80.01 107.95 0)
       (effects (font (size 1.524 1.524)))
@@ -2668,7 +2668,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 181.61 196.85 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c66647d-f7df-4823-93dd-f0db43f9512c)
     (property "Reference" "#PWR?" (at 187.96 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2758,7 +2758,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 134.62 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c70f78c-06fa-4ae8-9d5f-9707da0e4b5a)
     (property "Reference" "K?" (at 251.46 133.35 0)
       (effects (font (size 1.524 1.524)))
@@ -2814,7 +2814,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 134.62 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4067100e-aca6-4ebb-b4c6-d266d9449bb4)
     (property "Reference" "K16" (at 80.01 133.35 0)
       (effects (font (size 1.524 1.524)))
@@ -2864,7 +2864,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 46.99 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 432909d2-90e6-4e32-aa91-fa5e7ea7d555)
     (property "Reference" "K2" (at 80.01 45.72 0)
       (effects (font (size 1.524 1.524)))
@@ -2914,7 +2914,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 363.22 156.21 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ef88dce-b7e3-47a1-9d97-81adcce295c6)
     (property "Reference" "R?" (at 365.76 156.21 0)
       (effects (font (size 1.524 1.524)))
@@ -2964,7 +2964,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 363.22 199.39 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f1f202a-f0d0-4283-a158-9466731639dc)
     (property "Reference" "R?" (at 365.76 199.39 0)
       (effects (font (size 1.524 1.524)))
@@ -3014,7 +3014,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 358.14 208.28 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 59ef162a-4566-45d7-acf1-54192492fac7)
     (property "Reference" "#PWR?" (at 358.14 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3104,7 +3104,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 46.99 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a3783c6-b6a3-4943-93b3-f81edf12ef33)
     (property "Reference" "K?" (at 251.46 45.72 0)
       (effects (font (size 1.524 1.524)))
@@ -3160,7 +3160,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 129.54 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d946fad-c63f-4014-aae3-0af16b8a2781)
     (property "Reference" "K15" (at 80.01 128.27 0)
       (effects (font (size 1.524 1.524)))
@@ -3210,7 +3210,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 77.47 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e583216-4127-4921-a8fa-ae6adbc0c1bc)
     (property "Reference" "K7" (at 80.01 76.2 0)
       (effects (font (size 1.524 1.524)))
@@ -3260,7 +3260,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 363.22 208.28 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 61a57620-f772-4566-a4d2-1360c844df33)
     (property "Reference" "#PWR?" (at 363.22 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3350,7 +3350,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 57.15 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 61dcc221-a11c-4bab-b16e-6ebcb6535ba1)
     (property "Reference" "K4" (at 80.01 55.88 0)
       (effects (font (size 1.524 1.524)))
@@ -3400,7 +3400,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 52.07 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c8905a1-3bb8-4c20-a5a3-448292570e40)
     (property "Reference" "K?" (at 251.46 50.8 0)
       (effects (font (size 1.524 1.524)))
@@ -3456,7 +3456,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 82.55 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 73665147-72a1-45fc-a14b-4834787b341d)
     (property "Reference" "K?" (at 251.46 81.28 0)
       (effects (font (size 1.524 1.524)))
@@ -3512,7 +3512,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 113.03 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 75178637-7e36-40b3-a4da-1002caf9286e)
     (property "Reference" "R?" (at 355.6 113.03 0)
       (effects (font (size 1.524 1.524)))
@@ -3562,7 +3562,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 363.22 113.03 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 75f6de17-699e-4d34-a256-7b0a8c8851d9)
     (property "Reference" "R?" (at 365.76 113.03 0)
       (effects (font (size 1.524 1.524)))
@@ -3612,7 +3612,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 181.61 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f363fec-e772-4b46-91d1-253db67561de)
     (property "Reference" "R?" (at 355.6 181.61 0)
       (effects (font (size 1.524 1.524)))
@@ -3662,7 +3662,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 358.14 156.21 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 80ec5cee-3637-4a36-be85-722a3091c4e6)
     (property "Reference" "R?" (at 360.68 156.21 0)
       (effects (font (size 1.524 1.524)))
@@ -3712,7 +3712,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 67.31 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 81fd8275-42f4-42e0-860c-fb230af322ed)
     (property "Reference" "K?" (at 251.46 66.04 0)
       (effects (font (size 1.524 1.524)))
@@ -3768,7 +3768,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 119.38 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 82c7fbb7-4f53-47ee-a098-934c1a6e438d)
     (property "Reference" "K?" (at 251.46 118.11 0)
       (effects (font (size 1.524 1.524)))
@@ -3824,7 +3824,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 358.14 68.58 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 83cd7b9c-0de0-4eef-ac6d-a86cbaa7e563)
     (property "Reference" "R?" (at 360.68 68.58 0)
       (effects (font (size 1.524 1.524)))
@@ -3874,7 +3874,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 363.22 165.1 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 91892f5e-77f5-4dfd-b2b0-5a2fab3865c9)
     (property "Reference" "#PWR?" (at 363.22 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3964,7 +3964,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 109.22 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 951ba9ad-ae9d-4454-a9df-b2987ae77975)
     (property "Reference" "K?" (at 251.46 107.95 0)
       (effects (font (size 1.524 1.524)))
@@ -4020,7 +4020,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 353.06 121.92 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 95395344-95e9-4a56-b9c8-8dc93f30b996)
     (property "Reference" "#PWR?" (at 353.06 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4110,7 +4110,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 72.39 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bdec5c0-9cc3-438a-aa21-e69eb1f4d01d)
     (property "Reference" "K?" (at 251.46 71.12 0)
       (effects (font (size 1.524 1.524)))
@@ -4166,7 +4166,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 353.06 77.47 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fea96d6-a0d6-41c7-a5db-97416ae317d7)
     (property "Reference" "#PWR?" (at 353.06 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4256,7 +4256,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 104.14 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a2bddb5c-f93a-4940-8eea-ca7c4003d6d3)
     (property "Reference" "K?" (at 251.46 102.87 0)
       (effects (font (size 1.524 1.524)))
@@ -4312,7 +4312,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 93.98 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b38689a6-6396-43dc-babd-78512a9abb2b)
     (property "Reference" "K?" (at 251.46 92.71 0)
       (effects (font (size 1.524 1.524)))
@@ -4368,7 +4368,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 358.14 165.1 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b4b16b71-3177-4261-9881-a8dfc3ebfc25)
     (property "Reference" "#PWR?" (at 358.14 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4458,7 +4458,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 124.46 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b7c80a2b-d05c-4882-8a8f-dc39ff6ca815)
     (property "Reference" "K?" (at 251.46 123.19 0)
       (effects (font (size 1.524 1.524)))
@@ -4514,7 +4514,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 358.14 113.03 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid bb4e0780-a8c2-4fec-b182-c35241496dcd)
     (property "Reference" "R?" (at 360.68 113.03 0)
       (effects (font (size 1.524 1.524)))
@@ -4564,7 +4564,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 363.22 77.47 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c172f388-755a-4aca-84e4-1031fafc81e7)
     (property "Reference" "#PWR?" (at 363.22 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4654,7 +4654,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 52.07 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c1c9766e-97bd-4be5-9672-a5c040c8b77f)
     (property "Reference" "K3" (at 80.01 50.8 0)
       (effects (font (size 1.524 1.524)))
@@ -4704,7 +4704,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 124.46 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c5e28f93-7797-47f0-a91f-b7a07f3ba835)
     (property "Reference" "K14" (at 80.01 123.19 0)
       (effects (font (size 1.524 1.524)))
@@ -4754,7 +4754,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 99.06 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ca4be24b-4a8b-4031-adce-87ab08b80fa6)
     (property "Reference" "K10" (at 80.01 97.79 0)
       (effects (font (size 1.524 1.524)))
@@ -4804,7 +4804,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 57.15 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ce7d442f-ca4c-4514-8948-c9a7594ae623)
     (property "Reference" "K?" (at 251.46 55.88 0)
       (effects (font (size 1.524 1.524)))
@@ -4860,7 +4860,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 353.06 208.28 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cfa68cee-ec77-46e3-8457-8fecbd266d3b)
     (property "Reference" "#PWR?" (at 353.06 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4950,7 +4950,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 41.91 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d3eb904f-262d-43d8-bf67-611dcab92b73)
     (property "Reference" "K?" (at 251.46 40.64 0)
       (effects (font (size 1.524 1.524)))
@@ -5006,7 +5006,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 363.22 68.58 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d85f1ebb-0131-438d-93dd-c2c8da114532)
     (property "Reference" "R?" (at 365.76 68.58 0)
       (effects (font (size 1.524 1.524)))
@@ -5056,7 +5056,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 264.16 129.54 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid db96bdaa-178f-4d57-a8e8-3b15a9b673cd)
     (property "Reference" "K?" (at 251.46 128.27 0)
       (effects (font (size 1.524 1.524)))
@@ -5112,7 +5112,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 104.14 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid de7ca603-4960-4b42-b77c-5837fed841d2)
     (property "Reference" "K11" (at 80.01 102.87 0)
       (effects (font (size 1.524 1.524)))
@@ -5162,7 +5162,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 199.39 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f18ee92d-3070-4573-a56f-dd8e2552b337)
     (property "Reference" "R?" (at 355.6 199.39 0)
       (effects (font (size 1.524 1.524)))
@@ -5212,7 +5212,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RT0603BRD07432KL") (at 353.06 50.8 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f37fee45-1674-46e0-a85d-e764d81834cb)
     (property "Reference" "R?" (at 355.6 50.8 0)
       (effects (font (size 1.524 1.524)))
@@ -5262,7 +5262,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_PS") (at 358.14 77.47 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f453996c-4cb1-46aa-9a88-7a56b3b1be92)
     (property "Reference" "#PWR?" (at 358.14 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5352,7 +5352,7 @@
   )
 
   (symbol (lib_id "Relay_Omron:G6K-2G-Y-TR_DC24_DPDT") (at 67.31 41.91 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f8426bca-ddca-4684-800f-64666106b29f)
     (property "Reference" "K1" (at 80.01 40.64 0)
       (effects (font (size 1.524 1.524)))

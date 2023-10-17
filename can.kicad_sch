@@ -1,4 +1,4 @@
-(kicad_sch (version 20230620) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid cd97e481-7a3d-40f4-896a-6ba2df745fd8)
 
@@ -16,7 +16,7 @@
   )
 
   (lib_symbols
-    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_AVX:06035C104KAZ2A" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at -5.08 1.27 90)
         (effects (font (size 1.524 1.524)) (justify left))
       )
@@ -88,7 +88,7 @@
         )
       )
     )
-    (symbol "Capacitor_AVX:08055A220JAT2A" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_AVX:08055A220JAT2A" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 5.08 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -148,7 +148,7 @@
         )
       )
     )
-    (symbol "Capacitor_AVX:12103C106KAT2A" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Capacitor_AVX:12103C106KAT2A" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 5.08 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -220,7 +220,7 @@
         )
       )
     )
-    (symbol "OnSemiconductor:SBR80520LT1G" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "OnSemiconductor:SBR80520LT1G" (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -293,7 +293,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0603FR-071KL" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0603FR-071KL" (pin_numbers hide) (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -352,7 +352,7 @@
         )
       )
     )
-    (symbol "Resistor_Yageo:RC0805FR-072KL" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Resistor_Yageo:RC0805FR-072KL" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -417,7 +417,7 @@
         )
       )
     )
-    (symbol "STMicroelectronics:ESDCAN05-2BWY" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "STMicroelectronics:ESDCAN05-2BWY" (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 6.35 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -593,7 +593,7 @@
         )
       )
     )
-    (symbol "TI:ISO1050DWR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "TI:ISO1050DWR" (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 20.32 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -697,7 +697,7 @@
         )
       )
     )
-    (symbol "TI:SN6501DBVR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "TI:SN6501DBVR" (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 19.05 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -757,7 +757,7 @@
         )
       )
     )
-    (symbol "TI:TPS76350DBVR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "TI:TPS76350DBVR" (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 12.7 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -817,7 +817,7 @@
         )
       )
     )
-    (symbol "Wurth:760390015" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Wurth:760390015" (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TR" (at 0 8.89 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -973,7 +973,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_3V3" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1013,7 +1013,7 @@
         )
       )
     )
-    (symbol "_power_symbol:GND_CAN" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "_power_symbol:GND_CAN" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1581,7 +1581,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603FR-071KL") (at 231.14 144.78 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005ca10e9f)
     (property "Reference" "R123" (at 233.68 144.78 0)
       (effects (font (size 1.524 1.524)))
@@ -1643,7 +1643,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 264.16 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ca40bb2)
     (property "Reference" "#PWR?" (at 264.16 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1680,7 +1680,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 264.16 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ca4ebad)
     (property "Reference" "#PWR?" (at 264.16 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1717,7 +1717,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 85.09 119.38 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005caac690)
     (property "Reference" "C17" (at 86.36 114.3 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -1776,7 +1776,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0805FR-072KL") (at 50.8 129.54 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cabcb54)
     (property "Reference" "R114" (at 53.34 129.54 0)
       (effects (font (size 1.524 1.524)))
@@ -1832,7 +1832,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:12103C106KAT2A") (at 110.49 96.52 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cb739e6)
     (property "Reference" "C18" (at 113.03 92.71 90)
       (effects (font (size 1.524 1.524)))
@@ -1891,7 +1891,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:12103C106KAT2A") (at 229.87 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cb73c61)
     (property "Reference" "C21" (at 232.41 78.74 90)
       (effects (font (size 1.524 1.524)))
@@ -1950,7 +1950,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:12103C106KAT2A") (at 160.02 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cb76807)
     (property "Reference" "C20" (at 162.56 78.74 90)
       (effects (font (size 1.524 1.524)))
@@ -2009,7 +2009,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 160.02 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc360e5)
     (property "Reference" "#PWR?" (at 160.02 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2046,7 +2046,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 170.18 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc37cbb)
     (property "Reference" "#PWR?" (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2083,7 +2083,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 180.34 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc37ec0)
     (property "Reference" "#PWR?" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2120,7 +2120,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 160.02 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc3804d)
     (property "Reference" "#PWR?" (at 160.02 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2157,7 +2157,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 229.87 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc38722)
     (property "Reference" "#PWR?" (at 229.87 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2194,7 +2194,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 240.03 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cc39b38)
     (property "Reference" "#PWR?" (at 240.03 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2231,7 +2231,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 143.51 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ccb300a)
     (property "Reference" "#PWR?" (at 143.51 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2268,7 +2268,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_CAN") (at 128.27 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005daa90e4)
     (property "Reference" "#PWR?" (at 128.27 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2305,7 +2305,7 @@
   )
 
   (symbol (lib_id "TI:SN6501DBVR") (at 88.9 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f5332c7)
     (property "Reference" "U1" (at 88.9 69.85 0)
       (effects (font (size 1.524 1.524)))
@@ -2355,7 +2355,7 @@
   )
 
   (symbol (lib_id "TI:TPS76350DBVR") (at 200.66 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f53dedc)
     (property "Reference" "U3" (at 200.66 69.85 0)
       (effects (font (size 1.524 1.524)))
@@ -2405,7 +2405,7 @@
   )
 
   (symbol (lib_id "TI:ISO1050DWR") (at 120.65 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f540388)
     (property "Reference" "U2" (at 123.19 128.27 0)
       (effects (font (size 1.524 1.524)))
@@ -2466,7 +2466,7 @@
   )
 
   (symbol (lib_id "OnSemiconductor:SBR80520LT1G") (at 137.16 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f54698c)
     (property "Reference" "D2" (at 137.16 71.12 0)
       (effects (font (size 1.524 1.524)))
@@ -2513,7 +2513,7 @@
   )
 
   (symbol (lib_id "OnSemiconductor:SBR80520LT1G") (at 137.16 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f54713f)
     (property "Reference" "D3" (at 137.16 81.28 0)
       (effects (font (size 1.524 1.524)))
@@ -2560,7 +2560,7 @@
   )
 
   (symbol (lib_id "STMicroelectronics:ESDCAN05-2BWY") (at 250.19 144.78 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005f549908)
     (property "Reference" "D4" (at 250.19 138.43 0)
       (effects (font (size 1.524 1.524)))
@@ -2620,7 +2620,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 59.69 77.47 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f65c7ac)
     (property "Reference" "C14" (at 60.96 72.39 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2679,7 +2679,7 @@
   )
 
   (symbol (lib_id "Wurth:760390015") (at 120.65 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f664475)
     (property "Reference" "TR1" (at 120.65 63.5 0)
       (effects (font (size 1.524 1.524)))
@@ -2730,7 +2730,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 68.58 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f66e04e)
     (property "Reference" "#PWR045" (at 68.58 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2761,7 +2761,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 110.49 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f671e23)
     (property "Reference" "#PWR047" (at 110.49 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2792,7 +2792,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 59.69 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f672212)
     (property "Reference" "#PWR046" (at 59.69 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2823,7 +2823,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 170.18 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f68316b)
     (property "Reference" "C22" (at 171.45 77.47 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2882,7 +2882,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 100.33 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f6b181b)
     (property "Reference" "#PWR048" (at 100.33 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2913,7 +2913,7 @@
   )
 
   (symbol (lib_id "_power_symbol:GND_3V3") (at 85.09 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f6c819d)
     (property "Reference" "#PWR049" (at 85.09 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2944,7 +2944,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:06035C104KAZ2A") (at 151.13 121.92 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f6ce87a)
     (property "Reference" "C19" (at 156.21 123.19 90)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -3003,7 +3003,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:08055A220JAT2A") (at 264.16 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006108fca5)
     (property "Reference" "C?" (at 266.7 127 90)
       (effects (font (size 1.524 1.524)))
@@ -3050,7 +3050,7 @@
   )
 
   (symbol (lib_id "Capacitor_AVX:08055A220JAT2A") (at 264.16 175.26 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061092dfd)
     (property "Reference" "C?" (at 266.7 170.18 90)
       (effects (font (size 1.524 1.524)))
