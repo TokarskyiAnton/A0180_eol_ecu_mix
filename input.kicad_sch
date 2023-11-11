@@ -7039,7 +7039,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 171.45 90.17 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 6fbaa61b-c896-4138-ac28-45cba3c95889)
     (property "Reference" "R?" (at 171.45 87.63 0)
       (effects (font (size 1.524 1.524)))
@@ -7825,7 +7825,7 @@
   )
 
   (symbol (lib_id "Resistor_Yageo:RC0603JR-072K2L") (at 171.45 72.39 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
     (uuid 9f562c53-ef8d-408f-8618-b0b0a799f9a5)
     (property "Reference" "R?" (at 171.45 69.85 0)
       (effects (font (size 1.524 1.524)))
